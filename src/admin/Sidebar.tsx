@@ -5,10 +5,8 @@ import {Link} from "react-router-dom";
 const Sidebar: React.FC = () => {
     return (
         <div className="sidebar">
-            <Link to='/admin/bikelist'><button className="sidebar-button">Bikelist</button></Link>
-            <Link to='/admin/carlist'><button className="sidebar-button">CarList</button></Link>
+            <Link to='/admin/carlist'><button className="sidebar-button">Car List</button></Link>
             <Link to='/admin/userlist'><button className="sidebar-button">User List</button></Link>
-            <Link to='/admin/bikebookinglist'><button className="sidebar-button">Bike Booking List</button></Link>
             <Link to='/admin/carbookinglist'><button className="sidebar-button">Car Booking List</button></Link>
         </div>
     );

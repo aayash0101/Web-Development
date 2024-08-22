@@ -4,26 +4,25 @@ import './LateReturnPolicy.css';
 const LateReturnPolicy: React.FC = () => {
     return (
         <div className="late-return-policy-container">
-            <h2 className="late-return-policy-heading">Late Return Fine Policy</h2>
+            <h2 className="late-return-policy-heading">Late Return Fee Policy</h2>
             <ul className="late-return-policy-list">
                 <li className="late-return-policy-item">
-                    <strong>Grace Period:</strong> A grace period of 30 minutes is allowed beyond the return time.
+                    <strong>Grace Period:</strong> Enjoy a 30-minute grace period after the scheduled return time.
                 </li>
                 <li className="late-return-policy-item">
-                    <strong>Initial Fine:</strong> After the grace period, a flat fine of $20 is charged.
+                    <strong>Initial Fee:</strong> A standard fee of $20 applies once the grace period ends.
                 </li>
                 <li className="late-return-policy-item">
-                    <strong>Hourly Fine:</strong> An additional $10 per hour is charged after the initial fine.
+                    <strong>Hourly Fee:</strong> An extra $10 per hour is charged following the initial fee.
                 </li>
                 <li className="late-return-policy-item">
-                    <strong>Daily Cap:</strong> The maximum fine per day is capped at $100.
+                    <strong>Daily Limit:</strong> The daily maximum fee is capped at $100.
                 </li>
                 <li className="late-return-policy-item">
-                    <strong>Weekend Returns:</strong> Late returns on weekends incur an extra $50 fine.
+                    <strong>Weekend Surcharge:</strong> Returns on weekends incur an additional $50 fee.
                 </li>
-
                 <li className="late-return-policy-item">
-                    <strong>Appeals:</strong> Fines can be appealed within 7 days by contacting on our Contact-Number.
+                    <strong>Appeals:</strong> Disputes can be addressed within 7 days by contacting our support team.
                 </li>
             </ul>
         </div>

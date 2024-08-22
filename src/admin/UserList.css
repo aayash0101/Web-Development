@@ -1,10 +1,11 @@
-/* User List Styles */
+/* User List Container */
 .user-list-container {
-    margin-left: 250px; /* Offset the container to the right of the sidebar */
+    margin-left: 250px; /* Same as Car List for sidebar offset */
     padding: 20px;
-    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    box-sizing: border-box;
 }
 
+/* User List Table */
 .user-list-table {
     width: 100%;
     border-collapse: collapse;
@@ -13,25 +14,31 @@
 .user-list-table th,
 .user-list-table td {
     border: 1px solid #ddd;
-    padding: 10px;
-    text-align: left;
+    padding: 12px; /* Adjusted for consistency with Car List */
+    text-align: center; /* Center-align text to match Car List */
 }
 
 .user-list-table th {
-    background-color: #f2f2f2;
+    background-color: #f4f4f4; /* Light grey background */
+    font-weight: bold; /* Bold text for headers */
 }
 
+/* Delete Button */
 .delete-button {
-    background-color: #e74c3c;
+    background-color: #dc3545; /* Consistent with Car List Delete button */
     color: white;
     border: none;
-    padding: 8px 16px;
-    font-size: 14px;
+    padding: 8px 20px; /* Standardized padding for consistent button size */
+    font-size: 15px; /* Font size matched with Car List buttons */
+    font-weight: bold; /* Bold text for consistency */
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, transform 0.3s; /* Hover effects */
+    width: 100px; /* Fixed width for consistency */
+    text-align: center;
 }
 
 .delete-button:hover {
-    background-color: #c0392b;
+    background-color: #c0392b; /* Darker shade on hover */
+    transform: scale(1.05); /* Slight hover effect */
 }
