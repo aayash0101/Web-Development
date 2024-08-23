@@ -1,0 +1,44 @@
+/* User List Container */
+.user-list-container {
+    margin-left: 250px; /* Same as Car List for sidebar offset */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* User List Table */
+.user-list-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.user-list-table th,
+.user-list-table td {
+    border: 1px solid #ddd;
+    padding: 12px; /* Adjusted for consistency with Car List */
+    text-align: center; /* Center-align text to match Car List */
+}
+
+.user-list-table th {
+    background-color: #f4f4f4; /* Light grey background */
+    font-weight: bold; /* Bold text for headers */
+}
+
+/* Delete Button */
+.delete-button {
+    background-color: #dc3545; /* Consistent with Car List Delete button */
+    color: white;
+    border: none;
+    padding: 8px 20px; /* Standardized padding for consistent button size */
+    font-size: 15px; /* Font size matched with Car List buttons */
+    font-weight: bold; /* Bold text for consistency */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Hover effects */
+    width: 100px; /* Fixed width for consistency */
+    text-align: center;
+}
+
+.delete-button:hover {
+    background-color: #c0392b; /* Darker shade on hover */
+    transform: scale(1.05); /* Slight hover effect */
+}
